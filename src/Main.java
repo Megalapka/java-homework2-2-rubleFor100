@@ -16,7 +16,7 @@ public class Main {
         int bonus = 0;
         int totalAmount = 0;
         if (incomeAmount > 1000) {
-            bonus = incomeAmount/100;
+            bonus = incomeAmount / 100;
             totalAmount = startAmount + incomeAmount + bonus;
 
         } else {
